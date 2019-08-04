@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Starter Template · Bootstrap</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Bootstrap core CSS -->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+
+  </head>
+  <body onload="generateQuestion()">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark top">
+  <a class="navbar-brand" href="#">Quizee</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+</nav>
+
+<main role="main" class="container">
+
+  <div class="starter-template">
+    <form>
+
+    <div id="question">
+    <script src="index.js"></script>
+    </div>
+    <div id="option1" style="margin-top:20px;">
+
+    </div>
+    <div id="option2"style="margin-top:20px;">
+
+    </div>
+    <div id="option3"style="margin-top:20px;">
+
+    </div>
+    <div id="option4"style="margin-top:20px;">
+
+    </div>
+    <button id="submitAns" type="button" class="btn btn-primary"style="margin-top:40px;" onclick="checkScore()">SUBMIT ANSWER</button>&nbsp;
+    <button id="next" type="button" class="btn btn-primary"style="margin-top:40px;" onclick="generateQuestion()">NEXT</button>
+
+  </form>
+
+  </div>
+
+</main><!-- /.container -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type="text/javascript" src="index.js">
+
+</script>
+</body>
+
+</html>
